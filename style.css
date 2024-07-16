@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+}
+.container{
+    border: 8px solid rgb(0, 0, 0);
+    min-height: 70vh;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background: url('/images/logo1.jpg')  ;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+.head{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 3rem;
+}
+.btn-left{
+   color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin-top: 25%;
+   position:relative;
+   right: 15px;
+   background-color: rgb(255, 255, 255);
+   height: 30px;
+   
+    cursor: pointer;
+}
+.btn-right{
+    color: rgb(0, 0, 0);
+    margin-top: 25%;
+    font-size: 2rem;
+    position:relative;
+    left: 15px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .btn-left{
+        margin-top: 36%;
+    }
+    .btn-right{
+        margin-top: 36%;
+    }
+}
+@media (max-width:1080px){
+    .btn-left{
+        margin-top: 28%;
+    }
+    .btn-right{
+        margin-top: 28%;
+    }
+    .container{
+       position: relative;
+       bottom: 30px;
+    }
+}
+@media (max-width:425px){
+    .btn-left{
+        margin-top: 60%;
+    }
+    .btn-right{
+        margin-top: 60%;
+    }
+    .head{
+        font-size: 2rem;
+    }
+    .container{
+        border: 4px solid black;
+    }
+}
+@media (max-width:600px){
+    .btn-left{
+        margin-top: 50%;
+    }
+    .btn-right{
+        margin-top: 50%;
+    }
+}
+@media (max-width:375px){
+    .btn-left{
+        margin-top: 70%;
+    }
+    .btn-right{
+        margin-top: 70%;
+    }
+}
+ 
